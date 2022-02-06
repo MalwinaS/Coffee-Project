@@ -13,8 +13,5 @@ html, html[data-theme="default"], html[data-theme="light"] {
   --text-color-contrast: #{$text-color-contrast};
   --text-color-contrast-rgb: #{toRGB($text-color-contrast, true)};
 
-  body {
-    color: var(--text-color);
-    background: var(--bg-color);
-  }
+ 
 }

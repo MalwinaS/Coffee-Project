@@ -7,12 +7,11 @@
 
 html,
 body {
-  height: 100%;
 
-  * {
-    transition: background-color ease-in-out 500ms;
-    transition-delay: 0ms;
-  }
+  // * {
+  //   transition: background-color ease-in-out 500ms;
+  //   transition-delay: 0ms;
+  // }
 
   a {
     color: inherit;
@@ -24,3 +23,4 @@ body {
     }
   }
 }
+

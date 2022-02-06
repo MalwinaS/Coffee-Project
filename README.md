@@ -1,5 +1,3 @@
-# FRONTEND BOILERPLATE
-
 [![Bootstrap](https://img.shields.io/static/v1?label=Bootstrap&message=5.0.1&color=blueviolet)](https://getbootstrap.com)
 [![FontAwesome](https://img.shields.io/static/v1?label=FontAwesome&message=4.7.0&color=brightgreen)](http://fontawesome.com/v4.7.0)
 [![Bootstrap](https://img.shields.io/static/v1?label=jQuery&message=3.6.0&color=orange)](http://jquery.com)
@@ -90,7 +88,3 @@ Shorten directories and files structure which you'll see after build:
 ├── package-lock.json      # Node.js dependencies lock file (don't edit)
 └── [...]                  # other files
 ```
-
-## License
-
-Code released under the [MIT license](https://raw.githubusercontent.com/smarteist/Frontent-Starter-Boilerplate/master/LICENSE).

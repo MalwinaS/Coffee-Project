@@ -2,20 +2,43 @@
 // Header of the site/application
 // -----------------------------------------------------------------------------
 .header {
-  background-color: var(--primary-color);
-  color: var(--text-color);
+  background-color: #deb6a4;
+  display: block;
+  box-sizing: border-box;
 
   .navbar-brand {
     display: flex;
     align-items: center;
   }
+  .nav-item {
+    width: 70px;
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    visibility: inherit;
 
-  a {
-    color: var(--text-color);
-
-    &:hover {
-      color: var(--secondary-color);
-    }
+  }
+  .nav-link {
+    text-align: center;
   }
 
+  a {
+    color: black;
+
+    &:hover {
+      color: #d94604;
+    }
+  }
+  .login-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 7px;
+    height: 20px;
+    width: 100px;
+    background: #deb6a4;
+    border: none;
+    text-align: center;
+  }
 }
